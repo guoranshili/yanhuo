@@ -1,0 +1,22 @@
+
+==============================
+🔥 炎火智投 - 郭先生版（私密）
+==============================
+
+本版本自带密码入口，默认密码为： guoran888
+建议部署后修改为自己的密码：
+- Windows 本地：启动前在命令行设置  set APP_PASSWORD=你的新密码
+- Docker/云端：在环境变量里设置 APP_PASSWORD
+
+【本地一键启动（Windows）】
+1) 双击 Start_私密一键启动.bat
+2) 首次会创建 venv 并安装依赖，然后打开 http://localhost:8501
+3) 输入密码进入（默认 guoran888，可修改）
+
+【Docker 启动（云端/本地均可）】
+docker build -t yanhuo-private .
+docker run -e APP_PASSWORD=你的密码 -p 8501:8501 yanhuo-private
+
+【提示】
+- A股代码：上交所 .SS（600519.SS），深交所 .SZ（000001.SZ）
+- 本项目仅用于学习研究，不构成任何投资建议。
