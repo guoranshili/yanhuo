@@ -89,4 +89,4 @@ with tab2:
     st.dataframe(pd.DataFrame(rows))
 
 st.info("A股：上交所 .SS（600519.SS），深交所 .SZ（000001.SZ）；港股 .HK；美股直接代码；指数如 ^GSPC。")
-"修复 tab1 未定义
+remove stray debug line
