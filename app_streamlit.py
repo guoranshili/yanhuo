@@ -21,8 +21,7 @@ if not st.session_state.authed:
     if st.button("进入"):
         if pwd == PASSWORD:
             st.session_state.authed = True
-            st.st.rerun()
-()
+            st.rerun()
         else:
             st.error("密码错误。")
     st.stop()
